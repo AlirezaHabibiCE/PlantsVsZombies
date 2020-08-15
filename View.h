@@ -2,12 +2,26 @@
 #define VIEW_H
 
 #include <QObject>
+#include <QGraphicsView>
+#include <QTimer>
+#include "Controller.h"
+#include <QMediaPlayer>
 
-class View : public QObject
+class View :  public QGraphicsView
 {
     Q_OBJECT
+private:
+    QTimer * viewTimer;
+    int seconds;
+    Controller *viewController;
+    QMediaPlayer * viewplayer;
+
 public:
-    explicit View(QObject *parent = nullptr);
+    explicit View();
+    ~View();
+
+public slots:
+    void schedule();
 
 signals:
 

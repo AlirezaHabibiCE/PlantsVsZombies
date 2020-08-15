@@ -1,2 +1,24 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/images">
+        <file>zombies-2.png</file>
+        <file>zombies-4.png</file>
+        <file>background1.png</file>
+        <file>background2.png</file>
+        <file>background3.png</file>
+        <file>zombies-1.png</file>
+        <file>zombeis-3.png</file>
+        <file>1.png</file>
+        <file>2.png</file>
+        <file>3.png</file>
+        <file>4.png</file>
+    </qresource>
+    <qresource prefix="/Music">
+        <file>MainMenuPvZ1.mp3</file>
+        <file>MainMenuPvZ1.ogg</file>
+        <file>awooga.mp3</file>
+        <file>chomp.mp3</file>
+        <file>sukhbir.mp3</file>
+        <file>sukhbir2.mp3</file>
+        <file>sukhbir3.mp3</file>
+    </qresource>
+</RCC>
